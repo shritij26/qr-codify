@@ -50,6 +50,8 @@ img {
   height: 200px;
   margin-bottom: 20px;
   animation: fadeSlideIn 0.8s ease-out;
+  margin-left: 83px;
+  margin-bottom: 23px;
 }
 
 img:hover {
@@ -97,11 +99,20 @@ img:hover {
 }
 
 @media (max-width: 550px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    padding: 10px;
+  }
+
   .container {
     width: 100%;
     height: auto;
-    margin: 40px;
+    margin: 0;
     padding: 20px;
+    box-sizing: border-box;
   }
 
   img {
